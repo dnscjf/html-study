@@ -122,5 +122,32 @@
 - letter-spacing: wkrks
 - word-spacing: 단어와 단어 사이의 간격을 조절
 
+## 3.10 목록 스타일
+
+### 3.10.1 불릿 모양과 번호 스타일을 지정하는 litst-style-type
+
+- disc : 채운 원 모양
+- circle : 반 원 모양
+- square : 채운 사각형
+- decimal : 1부터 시작하는 10진수
+- decimal-leading-zero : 앞에 0이 붙는 10진수
+- lower-roman : 로마 숫자 소문자
+- upper-roman : 로마 숫자 대문자
+- lower-alpha 또는 lower-latin : 알파벳 소문자
+- upper-alpha 또는 lower-latin : 알파벳 대문자
+- none : 불릿이나 숫자를 없앤다.
+
+### 3.10.2 불릿 대신 이미지를 사용하는 list-style-image 속성
+
+```css
+ul {
+    list-style-image: url("image.png");
+}
+```
+
+### 3.10.3 목록을 들여 쓰는 list-style-position 속성
+
+
+
 
 
